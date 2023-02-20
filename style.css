@@ -1,0 +1,60 @@
+@font-face {
+  font-family: 'Epsilon';
+  src: url('./assets/fonts/Epsilon.ttf');
+}
+
+button {
+  font-family: 'Epsilon';
+  margin: 5px;
+}
+
+input {
+  visibility: hidden;
+}
+
+html,
+body {
+  text-shadow: 0 0 1px black,
+    0 0 1px black,
+    0 0 1px black,
+    0 0 1px black;
+  color: #DDD;
+  font-family: 'Epsilon';
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#duration {
+  background-color: magenta;
+  display: none;
+  height: 3px;
+  position: absolute;
+    top: 0;
+    left: 0;
+  width: 100vw;
+}
+
+#container {
+  background: #666;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+#state {
+  position: absolute;
+  bottom: 5;
+  left: 5;
+}
+
+#song-state {
+  height: calc(100vh - 30px);
+  display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,21 @@
+<html>
+  <head>
+    <title>Atkascha | mv</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="google" content="notranslate" />
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <div id="container">
+      <div id="duration"></div>
+      <div id="input">
+        <button for="directory_upload" onclick="document.querySelector('input').click()">Choose directory</button>
+        <input id="directory_upload" type="file" webkitdirectory directory multiple />
+      </div>
+      <div id="song-state">ready</div>
+      <div id="state">no song</div>
+    </div>
+  </body>
+  <script src="./lib/jsmediatags.min.js"></script>
+  <script src="./js/main.js"></script>
+</html>
